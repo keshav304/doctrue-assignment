@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './components/Header';
-import Hero from './components/Hero';
+import LandingSection from './components/LandingSection';
 
 const App: React.FC = () => {
   return (
     <div className='h-full'>
       <Header />
-      <Hero />
+      <LandingSection />
     </div>
   );
 };
